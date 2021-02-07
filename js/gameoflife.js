@@ -25,7 +25,7 @@ const corners = (state = []) => {
 
   return {
     topRight: [Math.max(...xs), Math.max(...ys)],
-    bottomLeft: [Math.min(...xs), Math.min(...ys)],
+    bottomLeft: [Math.min(...ys), Math.min(...ys)],
   };
 };
 
