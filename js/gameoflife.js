@@ -24,7 +24,7 @@ const corners = (state = []) => {
   const ys = state.map((_, y) => y);
 
   return {
-    topRight: [Math.max(...xs), Math.max(...ys)],
+    topRight: [Math.max(...xs), Math.max(...xs)],
     bottomLeft: [Math.min(...ys), Math.min(...ys)],
   };
 };
